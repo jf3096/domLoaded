@@ -1,5 +1,4 @@
 /*
- * Since window variable is global any consider can be used anywhere,
  * below declaration is used to patch Typescript could not recognize window.attachEvent
  */
 declare let attachEvent:any;
